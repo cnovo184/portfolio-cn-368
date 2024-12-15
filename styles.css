@@ -20,9 +20,9 @@
     --color-footer-bg: darkgrey;
     --color-footer-text: #fff;
     --color-link-hover: #33DAFF;
-    --color-link-active:#fff;
-    --color-link-visited:red;
-    --color-link:#192ACC;
+    --color-link-active: #fff;
+    --color-link-visited: red;
+    --color-link: #192ACC;
     --color-button-bg: #007BFF;
     --color-button-bg-hover: #0056b3;
     --color-border: navy;
@@ -35,7 +35,7 @@
     --font-size-large: 2.5em;
     --font-size-medium: 1.3em;
     --font-size-small: 1em;
-  }
+}
   
   /* ============ Font Styles ============ */
   .goldman-regular, 
@@ -100,11 +100,11 @@
   }
   
   /* ============ Global Styles ============ */
-  body {
-    background: rgb(73,0,142);
-    background: linear-gradient(90deg, rgba(73,0,142,1) 0%,         rgba(157,0,218,1) 35%, rgba(118,226,255,1) 100%);
+body {
+    background: linear-gradient(90deg, rgba(73,0,142,1) 0%, rgba(157,0,218,1) 35%, rgba(118,226,255,1) 100%);
     padding-top: var(--padding-top);
-  }
+    font-family: var(--font-merriweather);
+}
   
   /* ============ Header and Navbar ============ */
   #header {
@@ -195,8 +195,9 @@
     text-align: left;
     padding: 70px;
     flex-wrap: wrap;
-    height:100vh;
-  }
+    height: auto;
+}
+
   
   #welcome-section h1 {
     color: var(--color-primary);
@@ -227,7 +228,7 @@
   }
   
   #welcome-section img {
-    max-width: 250px;
+    max-width: 350px;
     height: auto;
     border-radius: 50%;
     border: 3px solid var(--color-border);
