@@ -193,7 +193,7 @@
     align-items: center;
     justify-content: center;
     text-align: left;
-    padding: var(--gap);
+    padding: 70px;
     flex-wrap: wrap;
     height:100vh;
   }
